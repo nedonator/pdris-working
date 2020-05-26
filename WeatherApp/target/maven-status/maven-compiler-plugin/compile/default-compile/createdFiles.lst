@@ -1,0 +1,10 @@
+app/Application.class
+app/WeatherController$MaxRestController.class
+app/JsonParsing/TempOneDayData.class
+app/SimpleGet.class
+app/PostResponce.class
+app/WeatherController.class
+app/JsonParsing/WTemperature.class
+app/WeatherService.class
+app/JsonParsing/JsonParser.class
+app/JsonParsing/TempOneDay.class

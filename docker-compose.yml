@@ -1,0 +1,23 @@
+version: '3'
+services:
+  rbc:
+    image: docker-rbc
+    build:
+      context: ./RbkApp
+      dockerfile: Dockerfile
+    ports:
+      - "8060:8060"
+  weather:
+    image: docker-weather
+    build:
+      context: ./WeatherApp
+      dockerfile: Dockerfile
+    ports:
+      - "8070:8070"  
+  ml:
+    image: docker-ml
+    build:
+      context: ./MLApp
+      dockerfile: Dockerfile
+    ports:
+      - "8050:8050"
